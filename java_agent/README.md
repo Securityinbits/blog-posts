@@ -11,4 +11,4 @@ To dump the class file of malware.jar:
 java -javaagent:dumper.jar -jar malware.jar
 ```
 
-Import note: Another important point is there must be a new line at the end of the MANIFEST file. Otherwise, the last header is ignored.
+**Important note**: Another important point is there must be a new line at the end of the MANIFEST file. Otherwise, the last header is ignored.
